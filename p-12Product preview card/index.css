@@ -139,7 +139,9 @@ img{
     width: 500px;
     border-radius: 20px 0px 0px 20px;
 }
-    
+     .btn{
+    border: none;
+    padding: 6px 10px;
 
 }
 @media (max-width : 480px){
@@ -176,7 +178,9 @@ img{
     width: auto;
     border-radius: 20px 0px 0px 20px;
 }
-    
+     .btn{
+    border: none;
+    padding: 6px 10px;
 
 }
 @media (max-width : 360px){

@@ -240,11 +240,11 @@ border-radius: 800px;
 }
 
 .bottom_contact {
-  max-width: 400px;
-  gap: 1rem;
+  max-width: 600px;
+  gap: 2rem;
   display: grid;
   margin: 0 auto;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
 }
 
 /* Footer */

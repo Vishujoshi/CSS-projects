@@ -115,6 +115,8 @@ border-radius: 30px;
         display: block;
         width: 500px;
         margin: 40px;
+        position: relative;
+        top: 1px;
      }
         .content{
     background-color: white;
@@ -155,7 +157,8 @@ img{
      .box{
         display: block;
         width: auto;
-       
+       position: relative;
+        top: 1px;
         margin: 40px;
      }
         .content{
@@ -195,7 +198,8 @@ img{
      .box{
         display: block;
         width: auto;
-       
+       position: relative;
+        top: 1px;
         margin: 40px;
         height: fit-content;
         padding-bottom: 20px;

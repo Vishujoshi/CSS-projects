@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    min-height: 100vh;
+    border: 7px solid;
+    padding: 60px;
+}
+h1{
+    font-size: 50px;
+   margin-bottom: 30px;
+  
+}
+ul{
+ margin-left: 80px;
+}
+li{
+    margin-bottom: 20px;
+}

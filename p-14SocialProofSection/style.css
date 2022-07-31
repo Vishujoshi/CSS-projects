@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;
+}
+.container{
+    background-color: darkgreen;
+    margin: 60px;
+}
+.top{
+    background-color: whitesmoke;
+    display: flex;
+}
+.left{
+    flex-basis: 50%;
+flex-grow: 0;
+}
+.left h1{
+    color: rgb(80, 13, 143);
+    width: 50%;
+    font-size: 50px;
+}
+.left p{
+    color: rgb(144, 114, 172);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 60%;
+    font-size: large;
+}
+.right{
+    margin-top: 50px;
+    flex-basis: 50%;
+flex-grow: 0;
+}
+.a,.b,.c{
+    background-color: rgb(228, 212, 243);
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 30px;
+    width: fit-content;
+}
+.b{
+    margin-left: 30px;
+}
+.c{
+    margin-left: 60px;
+}
+
+.bottom{
+    display: flex;
+    background-color: black;
+}
+.f1{
+flex-basis: 50%;
+flex-grow: 0;
+background-color: darkseagreen;
+}
+.f2{
+flex-basis: 50%;
+flex-grow: 0;
+background-color: deeppink;
+}
+.f3{
+    flex-basis: 50%;
+flex-grow: 0;
+background-color: olive;
+}
+
+
+@media (max-width : 520px){
+    .top{
+        
+        text-align: center;
+        display: inline-block;
+        margin: auto;
+        
+    }
+    .left{
+        width: 400px;
+        margin: auto;
+    }
+    .a,.b,.c{
+        
+        margin: 0%;
+        width: fit-content;
+        
+    }
+    .b{
+    margin-top: 20px;
+}
+.c{
+    margin-top: 20px;
+}
+
+}

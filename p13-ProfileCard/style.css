@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-color: black;
+}
+
+
+.box{
+    background-color: whitesmoke;
+   
+    width: 400px;
+    margin: 100px auto;
+   box-shadow: 4px 5px 3px gray;
+   border-radius: 20px;
+   color: beige;
+   height: 500px;
+    
+}
+.top{
+    background-color: rgba(0, 0, 0, 0.87);
+    border-radius: 20px 20px 0px 0px;
+    height: 150px;
+}
+.image{
+  background-image: url(images/Vishu-modified.png);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 1;
+  border-radius: 100%;
+  
+  
+  border: 4px solid ;
+  
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+.mid{
+    color: black;
+    text-align: center;
+    margin: 120px auto;
+    margin-bottom: 20px;
+}
+.name{
+   font-family: 'Fleur De Leah', cursive;
+font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.age{
+margin-left: 10px;
+font-size: 30px;
+font-weight: lighter;
+color: rgb(110, 105, 105);
+}
+.mid p{
+    margin-top: 2px;
+    font-size: large;
+    color: rgb(110, 105, 105);
+    
+}
+.bottom{
+    display: flex;
+    color: black;
+    
+
+}
+.followers{
+     flex-basis: 50%;
+flex-grow: 0;
+
+}
+.likes{
+       flex-basis: 50%;
+flex-grow: 0;
+
+}
+.photos{
+       flex-basis: 50%;
+flex-grow: 0;
+
+}
+.con{
+    margin-top: 20px;
+}
+.bottom h2{
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+}
+.bottom p{
+    color: rgb(110, 105, 105);
+    margin-top: 15px;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}

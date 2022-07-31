@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: fit-content;
+    background-color: gray;
+    padding: 60px;
+    
+}
+.content{
+    
+    
+    width: 60%;
+    margin: auto;
+   
+    
+    
+   box-shadow: 4px 5px 3px black;
+   border-radius: 20px;
+}
+
+.top{
+    background-color: whitesmoke;
+    height: fit-content;
+    padding: 50px;
+    border-radius: 20px 20px 0px 0px;
+}
+.text{
+   
+    width: 80%;
+    margin: 0px auto;
+    
+}
+.text h1{
+    padding-bottom: 20px;
+    color: rgb(33, 197, 197);
+}
+.text h2{
+    padding-bottom: 20px;
+    color: rgb(124, 185, 62);
+}
+.text p{
+    color: darkgrey;
+    font-size: 20px;
+}
+
+.bottom{
+    display: flex;
+    height: 40vh;
+    color: aliceblue;
+    height: fit-content;
+    
+}
+.left{
+    background-color: rgb(13, 116, 116);
+    flex-basis: 50%;
+flex-grow: 0;
+border-radius: 0px 0px 0px 20px;
+
+}
+.right{
+    background-color: rgb(33, 197, 197);
+    flex-basis: 50%;
+flex-grow: 0;
+border-radius: 0px 0px 20px 0px;
+
+}
+.rc,.lc{
+    
+    
+    width: 60%;
+    margin: auto;
+    padding-top: 40px ;
+    padding-bottom: 40px ;
+    height: fit-content;
+}
+.rc p{
+    padding-top: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: rgb(219, 226, 218);
+}
+.lc .middle{ 
+    padding-top: 20px;
+}
+.middle .a{
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.middle .b{
+    font-size: 15px;
+    position: relative;
+    left: 30px;
+    color: rgb(205, 209, 212);
+    
+}
+.lc p{
+    padding-top: 20px;
+}
+.btn{
+    position: relative;
+    top: 40px;
+    left: 10px;
+    padding: 13px 79px;
+    background-color: rgb(124, 185, 62);
+    border: transparent 1px;
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: 3px 2px 4px black;
+    transition: 0.3s ease-in;
+    min-width: 40px !important;
+    max-width: 40px !important;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: darkred;
+    transition: 0.3s ease-out;
+    transform: scale(1.04);
+}
+@media (max-width : 720px){
+    .bottom{
+        display: block;
+    }
+    .bottom{
+        height: fit-content;
+    }
+    .btn{
+        padding: 10px 50px;
+        position: relative;
+        top: 16px;
+        
+    }
+    .lc{
+        padding-bottom: 60px;
+    }
+}
+@media (min-width : 720px){
+    .btn{
+        padding: 10px 50px;
+        position: relative;
+        top: 60px;
+        
+    }
+}
+@media (max-width : 950px){
+    .btn{
+        padding: 10px 25px;
+        position: relative;
+        top: 16px;
+        
+    }
+}

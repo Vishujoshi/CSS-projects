@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-color: black;
+}
+
+
+.box{
+    background-color: rgb(37, 35, 35);
+   padding: 20px;
+    width: 400px;
+    margin: 120px auto;
+   box-shadow: 4px 5px 3px gray;
+   border-radius: 20px;
+   color: beige;
+   height: 400px;
+    
+}
+.star{
+    background-color: rgb(19, 18, 18);
+    padding: 4px;
+    color: #f78308;
+    border-radius: 56px;
+}
+.content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.content p{
+    margin-top: 20px;
+}
+.dis{
+    margin-right: 15px;
+}
+.btns a{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 22px;
+  background: #3f4e57;
+  padding: 13px 18px 12px 18px;
+  text-decoration: none;
+}
+
+.btns a:hover {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #914507);
+  background-image: -moz-linear-gradient(top, #000000, #914507);
+  background-image: -ms-linear-gradient(top, #000000, #914507);
+  background-image: -o-linear-gradient(top, #000000, #914507);
+  background-image: linear-gradient(to bottom, #000000, #914507);
+  text-decoration: none;
+}
+.btns a.active {
+  background-color: #0b344e;
+  text-decoration: none;
+}
+.submit a {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 24px;
+  background: #f78308;
+  padding: 9px 40px 10px 40px;
+  text-decoration: none;
+}
+
+.submit a:hover {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #e66807);
+  background-image: -moz-linear-gradient(top, #000000, #e66807);
+  background-image: -ms-linear-gradient(top, #000000, #e66807);
+  background-image: -o-linear-gradient(top, #000000, #e66807);
+  background-image: linear-gradient(to bottom, #000000, #e66807);
+  text-decoration: none;
+}
+.submit{
+    width: 50%;
+    margin: 60px auto;
+}
+
+.image{
+    background-image: url(images/illustration-thank-you.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 130px;
+}
+.center{
+    text-align: center;
+}
+.center{
+    margin-top: 20px;
+}
+.mid{
+    color: #e66807;
+}

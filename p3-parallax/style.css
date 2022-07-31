@@ -58,3 +58,11 @@ body {
   background-color: #282e34;
   color: #ddd;
 }
+@media (max-width: 500px){
+ .textBg{
+  display: flex;
+ 
+  
+ }
+
+}

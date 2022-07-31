@@ -26,8 +26,14 @@ li{
         flex-direction: column;
         gap: 20px;
         align-self: center;
-        max-width: 470px;
+        max-width: 100%;
         margin: 0 auto;
+       align-items: center;
+       text-decoration: ;
+       text-align: center;
     }
+    ul{
+ margin: 0 auto;
+}
     
 }

@@ -112,12 +112,3 @@ flex-grow: 0;
         margin: 0 auto;
     }
 }
-@media (max-width: 400px){
-    .container{
-        max-width: 200px;
-    }
-    .box{
-        width: min-content;
-        height: fit-content;
-    }
-}
